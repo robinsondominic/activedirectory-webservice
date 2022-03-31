@@ -16,7 +16,7 @@ using PropertyCollection = System.DirectoryServices.PropertyCollection;
 // [System.Web.Script.Services.ScriptService]
 public class ADSOAPWebService : System.Web.Services.WebService
 {
-    public string domainpath = "LDAP://DC=swglobal,DC=local";
+    public string domainpath = "LDAP://DC=domain,DC=local";
     public ADSOAPWebService()
     {
 
